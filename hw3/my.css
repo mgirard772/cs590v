@@ -1,0 +1,44 @@
+body{
+	font-family: Verdana;
+}
+
+svg.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.axis-label {
+	fill: black;
+	font-size: 2em;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 50px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: DodgerBlue;
+  color: white;
+  pointer-events: none;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.state {
+  fill: #aaa;
+}
+
+.county-border,
+.state-border {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
